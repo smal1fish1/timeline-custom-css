@@ -1,0 +1,88 @@
+/* 字体导入 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Droid+Sans:wght@400;700&display=swap');
+
+/* 全局样式 */
+.tl-timeline {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #F5F7FA;
+}
+
+/* 标题样式 */
+.tl-timeline h1,
+.tl-timeline h2,
+.tl-timeline h3,
+.tl-timeline h4,
+.tl-timeline h5,
+.tl-timeline h6 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 700;
+  color: #1F3A67;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.tl-timeline h2.tl-headline {
+  font-size: 58px;
+  line-height: 1.2;
+  color: #1F3A67;
+}
+
+/* 正文样式 */
+.tl-timeline p,
+.tl-timeline ul,
+.tl-timeline blockquote p {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* 时间导航样式 */
+.tl-timenav-slider h2.tl-headline-date {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFD700;
+  text-transform: uppercase;
+}
+
+/* 分组背景样式 */
+.tl-slide.group-政权 {
+  background: linear-gradient(135deg, #E3F2FD, #90CAF9);
+}
+
+.tl-slide.group-民族 {
+  background: linear-gradient(135deg, #FFF8E1, #FFE082);
+}
+
+.tl-slide.group-冲突 {
+  background: linear-gradient(135deg, #FFEBEE, #FFCDD2);
+}
+
+.tl-slide.group-演变 {
+  background: linear-gradient(135deg, #E8F5E9, #A5D6A7);
+}
+
+/* 按钮样式 */
+.tl-slidenav-next,
+.tl-slidenav-previous {
+  background-color: #1F3A67;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.tl-slidenav-next:hover,
+.tl-slidenav-previous:hover {
+  background-color: #FFD700;
+  color: #1F3A67;
+}
+
+/* 事件点样式 */
+.tl-timenav .tl-marker {
+  background-color: #FFD700;
+  border: 2px solid #1F3A67;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
